@@ -15,7 +15,8 @@ This project demonstrates practical asset management skills by identifying netwo
 - Focus Area: Asset management & risk prioritization
 
 ## 📂 Project Files
-- `asset_inventory.md` – Detailed asset inventory and sensitivity classification
-- `security_recommendations.md` – Risk-based security recommendations
+- `asset-inventory.md` – Detailed asset inventory and sensitivity classification
+- `security-recommendations.md` – Risk-based security recommendations
+- `home-asset-inventory.xlsx` - Detailed asset inventory and sensitivity classification
 
 
