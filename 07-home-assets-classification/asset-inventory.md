@@ -36,6 +36,33 @@ The purpose of this inventory is to identify network-connected assets and classi
 
 ---
 
+## CIA Triad Mapping & Risk Scoring
+
+The following table maps each asset to the CIA Triad (Confidentiality, Integrity, Availability) and assigns an overall risk score based on likelihood and impact if the asset were compromised.
+
+| Asset | Confidentiality Impact | Integrity Impact | Availability Impact | Overall Risk |
+|-----|-----------------------|------------------|--------------------|-------------|
+| Primary network router | High | High | High | **High** |
+| Secondary router | High | High | Medium | **High** |
+| Desktop computer | High | Medium | Medium | **High** |
+| External hard drive & memory cards | High | Medium | Low | **High** |
+| Smart security camera (Wi-Fi) | High | Medium | Medium | **High** |
+| Smart TVs (two units) | Low | Low | Medium | **Low** |
+| Legacy printer | Medium | Low | Low | **Low** |
+| Mobile phones (family members) | High | Medium | Medium | **Medium** |
+| Guest smartphones | Low | Low | Low | **Low** |
+
+---
+### CIA Triad Evaluation Logic
+
+- **Confidentiality** reflects the sensitivity of data exposed if the asset is compromised.
+- **Integrity** measures the potential for unauthorized modification of data or configurations.
+- **Availability** considers the impact of service disruption or device unavailability.
+- **Overall Risk** is determined by combining impact severity with likelihood of exploitation.
+
+Assets that control network access, store sensitive data, or are continuously connected are rated higher risk.
+
+---
 ## Classification Rationale
 Assets were classified based on potential impact to confidentiality, integrity, and availability if compromised, with particular attention to data sensitivity and network control.
 
