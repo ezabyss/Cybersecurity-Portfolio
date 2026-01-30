@@ -28,13 +28,14 @@ This assessment follows all **seven stages of the PASTA framework** and reflects
 ---
 
 ## 📂 Repository Structure
+```
 .
-├── README.md # Project overview
-├── analysis.md # Full PASTA worksheet & threat analysis
+├── README.md                # Project overview and summary
+├── analysis.md              # Full PASTA worksheet & threat analysis
 ├── diagrams/
-│ ├── data-flow.png # Data flow diagram (reference)
-│ └── attack-tree.png # Sample attack tree
-
+│   ├── data-flow.png        # Data flow diagram (reference)
+│   └── attack-tree.png      # Sample attack tree
+```
 
 ---
 
