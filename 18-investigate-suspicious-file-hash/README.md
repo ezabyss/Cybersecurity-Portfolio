@@ -1,5 +1,8 @@
 # 🧪 Threat Intelligence Analysis Using VirusTotal & Pyramid of Pain
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/76cd4c42-8cc6-47e4-ba19-b22759d9f311" />
+
+
 ## Overview
 This lab focuses on analyzing a malicious artifact using **VirusTotal** and mapping its associated **Indicators of Compromise (IoCs)** to the **Pyramid of Pain** framework.
 
