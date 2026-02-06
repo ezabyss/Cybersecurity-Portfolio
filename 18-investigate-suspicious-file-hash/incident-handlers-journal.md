@@ -78,6 +78,40 @@ The attacker leveraged social engineering and password-protected attachments to 
 - Malicious process creation following user interaction  
 - Harder for attackers to modify without changing attack methodology
 
+# 📊 Indicators of Compromise — Pyramid of Pain Mapping
+
+## Overview
+This table maps identified Indicators of Compromise (IoCs) from the investigation to the **Pyramid of Pain** framework.  
+The higher the level, the more difficult it is for an adversary to adapt when the indicator is detected and blocked.
+
+---
+
+# 🧱 Pyramid of Pain — Indicator Categorization
+
+## Overview
+This table classifies identified Indicators of Compromise (IoCs) using the **Pyramid of Pain** framework.  
+Each IoC is evaluated based on its defensive impact and the level of difficulty it creates for attackers.
+
+---
+
+## IoC Classification Table
+
+| Pyramid Level / Difficulty | IoC Category | Example Identified | Analyst Notes |
+|--------------|-------------|-------------------|---------------|
+| **High (TOUGH)** | TTPs (Tactics, Techniques, Procedures) | Command and Control | Forces attackers to redesign communication methods; highest defensive impact |
+| **High (CHALLENGING)** | Tools | Input Capture | Indicates credential harvesting capability; replacing tools requires attacker effort |
+| **Medium (ANNOYING)** | Network / Host Artifacts | HTTP Requests | Observable traffic patterns; can be modified but disrupts operations |
+| **Low (SIMPLE)** | Domain Names | `org.misecure.com` | Domains are easily rotated but useful for short-term blocking |
+| **Low (EASY)** | IP Addresses | `207.148.109.242` | Infrastructure-based indicator; trivial for attackers to replace |
+| **Lowest (TRIVIAL)** | Hash Values | `287d612e29b71c90aa54947313810a25` | Static identifier; easily evaded by recompiling malware |
+
+---
+
+## Analyst Insight
+- **Higher pyramid levels** provide stronger long-term defensive value  
+- **Behavioral and TTP-based detections** should be prioritized in SOC workflows  
+- **Lower-level IoCs** remain useful for correlation and enrichment but should not be relied upon alone
+
 ---
 
 ## Additional Notes
